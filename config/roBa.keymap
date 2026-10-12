@@ -62,6 +62,15 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        double_click: double_click {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <60>;
+            tap-ms = <30>;
+            bindings = <&mkp MB1 &mkp MB1>;
+            label = "DOUBLE_CLICK";
+        };
     };
 
     behaviors {
