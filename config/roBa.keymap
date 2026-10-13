@@ -113,7 +113,7 @@
 &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt 2 ESCAPE  &kp LEFT_WIN  &lt 3 SPACE           &kp BACKSPACE   &kp DELETE                             &kp RIGHT_ALT
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         FUNCTION {
