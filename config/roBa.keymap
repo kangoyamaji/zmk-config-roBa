@@ -113,7 +113,7 @@
 &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt 2 ESCAPE  &kp LEFT_WIN  &lt 3 SPACE           &kp BACKSPACE   &kp DELETE                             &kp RIGHT_ALT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&scroll_encoder &scroll_encoder>;
         };
 
         FUNCTION {
@@ -142,7 +142,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&scroll_encoder &scroll_encoder>;
         };
 
         MOUSE {
